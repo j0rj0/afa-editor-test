@@ -55,7 +55,7 @@ jobs:
         env:
           # Producció (repo del AFA, domini connectat): "0". Només es posa a
           # "1" per a un repositori pilot/preview sense domini propi.
-          PREVIEW: "0"
+          PREVIEW: "1"
         run: python3 build/generar.py
 
       - name: Prepara l'artifact de Pages
